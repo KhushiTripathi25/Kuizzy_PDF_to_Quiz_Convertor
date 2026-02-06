@@ -1,0 +1,52 @@
+<body>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+<!-- Subtle background icons -->
+<div class="bg-icons">
+    <span class="icon circle"></span>
+    <span class="icon circle small"></span>
+    <span class="icon triangle"></span>
+    <span class="icon triangle small"></span>
+    <span class="icon dot"></span>
+</div>
+
+<div class="screen">
+
+    <div class="flash-card">
+
+        <div class="card-text">
+            <h1>Are you ready?</h1>
+            <p>
+                Transform your notes into meaningful quizzes.
+                Upload once. Learn smarter.
+            </p>
+        </div>
+
+        <div class="mascot">
+            🐱
+        </div>
+
+        <form action="/generate" method="POST" enctype="multipart/form-data">
+            <label class="upload-btn">
+                <input type="file" name="pdf" accept=".pdf" required>
+                📄 Upload PDF
+            </label>
+
+            <button type="submit" class="start-btn">
+                Start Learning
+            </button>
+        </form>
+
+        {% if success %}
+        <div class="download">
+            <a href="/download/json">Download JSON</a>
+            <a href="/download/pdf">Download PDF</a>
+        </div>
+        {% endif %}
+
+    </div>
+
+</div>
+
+</body>

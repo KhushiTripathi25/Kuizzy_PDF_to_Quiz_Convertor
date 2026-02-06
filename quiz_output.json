@@ -1,0 +1,102 @@
+[
+    {
+        "type": "Fill in the Blanks",
+        "question": "What is the basic _____ of life 2.",
+        "answer": "unit"
+    },
+    {
+        "type": "True/False",
+        "question": "What is the basic unit of life 2.",
+        "answer": "True"
+    },
+    {
+        "type": "MCQ",
+        "question": "Which of the following relates to: What is the basic unit of life 2.",
+        "options": [
+            "part",
+            "water",
+            "breathing",
+            "powerhouse"
+        ],
+        "answer": "powerhouse"
+    },
+    {
+        "type": "Fill in the Blanks",
+        "question": "Which organelle is known as _____ powerhouse of _____ cell 3.",
+        "answer": "the"
+    },
+    {
+        "type": "True/False",
+        "question": "Which organelle is known as the powerhouse of the cell 3.",
+        "answer": "True"
+    },
+    {
+        "type": "MCQ",
+        "question": "Which of the following relates to: Which organelle is known as the powerhouse of the cell 3.",
+        "options": [
+            "nutrition",
+            "called",
+            "somatic",
+            "division"
+        ],
+        "answer": "nutrition"
+    },
+    {
+        "type": "Fill in the Blanks",
+        "question": "What is the process by _____ plants make their food 4.",
+        "answer": "which"
+    },
+    {
+        "type": "True/False",
+        "question": "What is the process by which plants make their food 4.",
+        "answer": "True"
+    },
+    {
+        "type": "MCQ",
+        "question": "Which of the following relates to: What is the process by which plants make their food 4.",
+        "options": [
+            "genetic",
+            "exposed",
+            "deficiency",
+            "kidney"
+        ],
+        "answer": "kidney"
+    },
+    {
+        "type": "True/False",
+        "question": "Which gas is released during photosynthesis 5.",
+        "answer": "True"
+    },
+    {
+        "type": "MCQ",
+        "question": "Which of the following relates to: Which gas is released during photosynthesis 5.",
+        "options": [
+            "organ",
+            "vitamin",
+            "known",
+            "largest"
+        ],
+        "answer": "known"
+    },
+    {
+        "type": "Fill in the Blanks",
+        "question": "What is the largest organ _____ the human body 6.",
+        "answer": "in"
+    },
+    {
+        "type": "True/False",
+        "question": "What is the largest organ in the human body 6.",
+        "answer": "True"
+    },
+    {
+        "type": "MCQ",
+        "question": "Which of the following relates to: What is the largest organ in the human body 6.",
+        "options": [
+            "blood",
+            "cell",
+            "process",
+            "exposed"
+        ],
+        "answer": "blood"
+    }
+]

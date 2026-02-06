@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(180deg, #e8f7f1, #f7fffb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Background icons – subtle */
+.bg-icons {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.icon {
+    position: absolute;
+    opacity: 0.08;
+    background: #2f7d5a;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 10%;
+    left: 8%;
+}
+
+.circle.small {
+    width: 40px;
+    height: 40px;
+    bottom: 18%;
+    right: 15%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 80px solid #2f7d5a;
+    top: 22%;
+    right: 10%;
+}
+
+.triangle.small {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 45px solid #2f7d5a;
+    bottom: 10%;
+    left: 20%;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: 60%;
+    left: 50%;
+}
+
+/* Card */
+.screen {
+    width: 360px;
+    z-index: 2;
+}
+
+.flash-card {
+    background: white;
+    border-radius: 28px;
+    padding: 32px 26px;
+    text-align: center;
+    box-shadow: 0 22px 50px rgba(47,125,90,0.22);
+}
+
+.card-text h1 {
+    margin-bottom: 10px;
+    color: #2f7d5a;
+    font-size: 26px;
+}
+
+.card-text p {
+    font-size: 14px;
+    color: #5f7f72;
+    margin-bottom: 24px;
+}
+
+.mascot {
+    font-size: 90px;
+    margin: 10px 0 22px;
+}
+
+.upload-btn {
+    display: block;
+    background: #eaf8f2;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #2f7d5a;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.upload-btn input {
+    display: none;
+}
+
+.start-btn {
+    width: 100%;
+    background: #ffd166;
+    border: none;
+    padding: 14px;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #2c2c2c;
+}
+
+.start-btn:hover {
+    background: #ffca3a;
+}
+
+.download {
+    margin-top: 20px;
+}
+
+.download a {
+    display: inline-block;
+    margin: 6px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #2f7d5a;
+    font-weight: 500;
+}
